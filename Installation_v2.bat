@@ -8,7 +8,7 @@ echo /            ORBITER 2016 INSTALLER              /
 echo /						 /
 echo ==================================================
 
-:: Prompt user to type in full directory location of Orbiter source file 
+:: Prompt user to type in full directory location of Orbiter source folder
 set /p id="Please type in the entire directory path of your Orbiter folder (please include a '\' at the end): "
 set /p confirmation="You've entered "%id%", is this correct? (Y/N): "
 IF "%confirmation%"=="Y" ( echo Directory successfully located. && pause )
